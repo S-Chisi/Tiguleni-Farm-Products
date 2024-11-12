@@ -4,5 +4,10 @@ import { createBrowserRouter } from "react-router-dom";
 export const router = createBrowserRouter([
     {
         path: "/",
-        element: <p>tiguleni</p>}
+        element: <p>tiguleni</p>
+    },
+    {
+        path: "/feednack",
+        element: <Review/>
+    }
 ])
