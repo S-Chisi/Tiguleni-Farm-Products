@@ -8,11 +8,12 @@ const SignUpPage = ()=> {
 
         <div className='h-screen'>
             <Navbar/>
-            <div className='flex justify-center  items-center ml-80 py-64'>
-            <div className = "bg-white grid md:grid-cols-4 gap-7 items-center py-64">
+            <div className='justify-center min-h-screen items-center ml-80 bg-white grid md:grid-cols-4 gap-7'>
                     
                 <div className='bg-orange-500 p-20 w-96 max-h justify-normal'>
-                    <img  src="https://img.freepik.com/premium-vector/smartphone-with-purchase-icon-screen-place-red-shopping-cart-with-unfolded-receipt-paper-draped-edge-shopping-cart-online-shopping-conceptvector-3d-isolated-orange-backgroud_425581-1.jpg?w=740" alt="Shopping basket" className="h-auto w-full" />
+                    <img  src="https://img.freepik.com/premium-vector/smartphone-with-purchase-icon-screen-place-red-shopping-cart-with-unfolded-receipt-paper-draped-edge-shopping-cart-online-shopping-conceptvector-3d-isolated-orange-backgroud_425581-1.jpg?w=740" 
+                    alt="Shopping basket" 
+                    className="h-72 w-fit" />
                 </div>
 
                 <div className= 'bg-white p-20 w-96 max-h justify-normal'>
@@ -50,7 +51,6 @@ const SignUpPage = ()=> {
                             </Link>
                         </div>
                     </form>
-                </div>
             </div>
 
         </div>
