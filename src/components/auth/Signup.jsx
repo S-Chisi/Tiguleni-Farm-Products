@@ -8,7 +8,7 @@ const SignUpPage = ()=> {
 
         <div className='h-screen'>
             <Navbar/>
-            <div className='justify-center min-h-screen items-center ml-80 bg-white grid md:grid-cols-4 gap-7'>
+            <div className='justify-center min-h-screen items-center ml-80 bg-white grid md:grid-cols-4 gap-7 rounded-full border-4 border-white'>
                     
                 <div className='bg-orange-500 p-20 w-96 max-h justify-normal'>
                     <img  src="https://img.freepik.com/premium-vector/smartphone-with-purchase-icon-screen-place-red-shopping-cart-with-unfolded-receipt-paper-draped-edge-shopping-cart-online-shopping-conceptvector-3d-isolated-orange-backgroud_425581-1.jpg?w=740" 

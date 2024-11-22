@@ -23,7 +23,7 @@ const LoginPage = () => {
               type="text"
               id="email"
               name="email"
-              className="rounded w-full py-3 px-4 text-gray-700"
+              className="border rounded w-full py-3 px-4 text-gray-700"
               placeholder="Enter your email or phone number"
               required
             />

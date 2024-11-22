@@ -10,6 +10,7 @@ import SignUpPage from "./components/auth/Signup";
 import ProductSearch from "./components/ProductSearch";
 import Messaging from "./components/messaging/Messaging";
 import Cart from "./components/ProductList/cart";
+import ProfilePage from "./components/adminComponents/Profile";
 
 export const router = createBrowserRouter([
   { path: "/", element: <Home /> },
@@ -46,7 +47,11 @@ export const router = createBrowserRouter([
                 },
                 {path:'cart',
                   element:<Cart/>
-                }
+                },
+  {
+    path: "/Profile",
+    element: <ProfilePage></ProfilePage>
+  }
  
 ]);
 
