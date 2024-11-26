@@ -1,4 +1,3 @@
-// src/components/Header.jsx
 import React from "react";
 
 const Header = () => (
@@ -23,7 +22,7 @@ const Header = () => (
       <button className="text-gray-600">👤</button>
     </div>
   </header>
-  
+
 );
 
 export default Header;
