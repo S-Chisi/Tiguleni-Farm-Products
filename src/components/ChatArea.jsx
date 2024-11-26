@@ -48,4 +48,5 @@ const ChatArea = ({ selectedContact }) => {
   );
 };
 
+
 export default ChatArea;

@@ -23,7 +23,9 @@ const Sidebar = ({ contacts, selectContact }) => (
         </li>
       ))}
     </ul>
+    
   </aside>
+
 );
 
 export default Sidebar;

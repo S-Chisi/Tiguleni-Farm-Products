@@ -23,6 +23,7 @@ const Header = () => (
       <button className="text-gray-600">👤</button>
     </div>
   </header>
+  
 );
 
 export default Header;
